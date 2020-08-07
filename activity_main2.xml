@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#673AB7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atta Halilintar"
+        android:textSize="40dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="18dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="26dp"
+        android:width="355dp"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/name"/>
+
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:layout_below="@+id/alamat"
+        android:layout_marginLeft="26dp"
+        android:width="355dp"/>
+
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kampus"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/adress"/>
+
+    <EditText
+        android:id="@+id/kampoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kampus"
+        android:layout_below="@+id/kampus"
+        android:layout_marginLeft="26dp"
+        android:width="355dp"/>
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@+id/kampoes"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="185dp"
+        android:layout_below="@+id/foto"
+        android:text="KEMBALI"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:layout_marginLeft="105dp">
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:layout_marginLeft="85dp">
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="185dp"
+            android:layout_below="@+id/foto3"
+            android:text="NEXT"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:background="#3F51B5"/>
+
+    </RelativeLayout>
+</RelativeLayout>
